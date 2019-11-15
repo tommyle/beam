@@ -1293,7 +1293,7 @@
 		764CD6231B399D4C002F9B79 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
 		764E74681B3819BF003FD2F9 /* UIColor+Beam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Beam.swift"; sourceTree = "<group>"; };
 		765A38691B3D83EA00A16D14 /* UIViewController+EmbeddedLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+EmbeddedLayout.swift"; path = "Beam/Extensions/UIViewController+EmbeddedLayout.swift"; sourceTree = SOURCE_ROOT; };
-		766074131B38073100F4C777 /* beam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = beam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		766074131B38073100F4C777 /* Blue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		766074161B38073100F4C777 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7660741D1B38073100F4C777 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7660741F1B38073100F4C777 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -2700,7 +2700,7 @@
 		766074141B38073100F4C777 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				766074131B38073100F4C777 /* beam.app */,
+				766074131B38073100F4C777 /* Blue.app */,
 				7668266B1B84808000647A30 /* RedditMarkdownKit.framework */,
 				0C26055A1CAD74280078ABF6 /* ImgurKit.framework */,
 				0C24FE861D82B7BD00CCBF93 /* Snoo.framework */,
@@ -2936,7 +2936,7 @@
 			);
 			name = beam;
 			productName = beam;
-			productReference = 766074131B38073100F4C777 /* beam.app */;
+			productReference = 766074131B38073100F4C777 /* Blue.app */;
 			productType = "com.apple.product-type.application";
 		};
 		7668266A1B84808000647A30 /* RedditMarkdownKit */ = {
@@ -2994,7 +2994,7 @@
 					};
 					766074121B38073100F4C777 = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = N4KR5KV52L;
+						DevelopmentTeam = QVMS2DN242;
 						LastSwiftMigration = 0940;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
@@ -3023,6 +3023,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 				fr,
@@ -4322,6 +4323,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = QVMS2DN242;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -4344,8 +4346,8 @@
 					"-lsqlite3.0",
 				);
 				OTHER_SWIFT_FLAGS = "-D DEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = com.madeawkward.beam;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = net.tommyle.blue;
+				PRODUCT_NAME = Blue;
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Beam/beam-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
@@ -4363,6 +4365,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = QVMS2DN242;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -4380,8 +4383,8 @@
 					"-lsqlite3.0",
 				);
 				OTHER_SWIFT_FLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.madeawkward.beam;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = net.tommyle.blue;
+				PRODUCT_NAME = Blue;
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Beam/beam-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
