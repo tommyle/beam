@@ -2994,7 +2994,7 @@
 					};
 					766074121B38073100F4C777 = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = N4KR5KV52L;
+						DevelopmentTeam = QVMS2DN242;
 						LastSwiftMigration = 0940;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
@@ -3023,6 +3023,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 				fr,
@@ -4322,6 +4323,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = QVMS2DN242;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -4344,7 +4346,7 @@
 					"-lsqlite3.0",
 				);
 				OTHER_SWIFT_FLAGS = "-D DEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = com.madeawkward.beam;
+				PRODUCT_BUNDLE_IDENTIFIER = net.tommyle.blue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Beam/beam-Bridging-Header.h";
@@ -4363,6 +4365,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = QVMS2DN242;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -4380,7 +4383,7 @@
 					"-lsqlite3.0",
 				);
 				OTHER_SWIFT_FLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.madeawkward.beam;
+				PRODUCT_BUNDLE_IDENTIFIER = net.tommyle.blue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Beam/beam-Bridging-Header.h";
